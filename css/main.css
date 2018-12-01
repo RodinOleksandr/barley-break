@@ -1,0 +1,83 @@
+.block0, .block1, .block2, .block3,.block4,.block5,.block6,.block7,.block8, .block9{
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  opacity: 0;
+}
+.block0{
+  background-image:  url('https://kde.link/test/0.png');
+}
+.block1{
+  background-image:  url('https://kde.link/test/1.png');
+}
+.block2{
+  background-image:  url('https://kde.link/test/2.png');
+}
+.block3{
+  background-image:  url('https://kde.link/test/3.png');
+}
+.block4{
+  background-image:  url('https://kde.link/test/4.png');
+}
+.block5{
+  background-image:  url('https://kde.link/test/5.png');
+}
+.block6{
+  background-image:  url('https://kde.link/test/6.png');
+}
+.block7{
+  background-image:  url('https://kde.link/test/7.png');
+}
+.block8{
+  background-image:  url('https://kde.link/test/8.png');
+}
+.block9{
+  background-image:  url('https://kde.link/test/9.png');
+}
+body{
+  background-image: url(../bg.jpg);
+}
+#area{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  margin: 20px auto 0 auto;
+}
+.wrap{
+  width: 70px;
+  height: 70px;
+  border: 1px solid #2bff00;
+  background-image: url(../smile.jpg);
+  background-size: cover;
+}
+.show{
+  opacity: 1 !important;
+  transition: opacity 1s;
+}
+#size{
+  color: #40fb22;
+  font-size: 70px;
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+}
+#steps{
+  color: #40fb22;
+  font-size: 70px;
+  position: absolute;
+  bottom: 20px;
+  right:20px;
+}
+#button{
+  width: 150px;
+  height: 70px;
+  border-radius: 50px;
+  position: absolute;
+  left: calc(50% - 75px);
+  top: 50%;
+  background: #7ff707;
+  font-size: 30px;
+  font-style: italic;
+  color: #c9fad5;
+
+}
